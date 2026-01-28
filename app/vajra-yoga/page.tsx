@@ -163,14 +163,6 @@ export default function VajraYogaPage() {
         </div>
       </section>
 
-      {/* Quote Section */}
-      
-
-      {/* Who Is It For */}
-      <section className="py-24">
-        
-      </section>
-
       <Footer />
     </div>
   )
