@@ -133,22 +133,36 @@ export default function VajraYogaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-                The Path
+                Safe Practice
               </p>
               <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground leading-tight mb-8 text-balance">
-                What We Practice
+                Spine-friendly Practice
               </h2>
-              <div className="space-y-8">
-                {practices.map((practice, index) => (
-                  <div key={index} className="border-l-2 border-primary pl-6">
-                    <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                      {practice.title}
-                    </h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {practice.description}
-                    </p>
-                  </div>
-                ))}
+              <div className="space-y-6">
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Twists
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Twisting compresses the intervertebral foramina, which can impair nerve function and lead to internal organ dysfunction.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Deep Backbends
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Deep backbends can compromise spinal integrity and are avoided to protect the vertebrae and surrounding structures.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Headstands
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Headstands place excessive pressure on the cervical spine and are excluded from Vajra Yoga practice.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
