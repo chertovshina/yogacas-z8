@@ -12,7 +12,7 @@ const footerLinks = [
   { href: "/", label: "Home" },
   { href: "/vajra-yoga", label: "Vajra Yoga" },
   { href: "/about", label: "About Me" },
-  { href: "/blog", label: "Blog" },
+  { href: "/articles", label: "Articles" },
 ]
 
 export function Footer() {

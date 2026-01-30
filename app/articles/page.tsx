@@ -73,7 +73,7 @@ const articles = [
 
 const categories = ["All", "Foundations", "Asana", "Pranayama", "Meditation", "Mindfulness", "Lifestyle"]
 
-export default function BlogPage() {
+export default function ArticlesPage() {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -83,7 +83,7 @@ export default function BlogPage() {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl">
             <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-              The Blog
+              Articles
             </p>
             <h1 className="font-serif text-4xl md:text-6xl font-light text-foreground leading-tight mb-6 text-balance">
               Teachings & Reflections
@@ -118,7 +118,7 @@ export default function BlogPage() {
       {/* Featured Article */}
       <section className="pb-16">
         <div className="container mx-auto px-6">
-          <Link href={`/blog/${featuredArticle.slug}`} className="group block">
+          <Link href={`/articles/${featuredArticle.slug}`} className="group block">
             <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-card border border-border rounded-lg overflow-hidden">
               <div className="relative aspect-[16/10] lg:aspect-auto">
                 <Image
@@ -162,7 +162,7 @@ export default function BlogPage() {
             {articles.map((article) => (
               <Link
                 key={article.slug}
-                href={`/blog/${article.slug}`}
+                href={`/articles/${article.slug}`}
                 className="group"
               >
                 <article className="bg-card border border-border rounded-lg overflow-hidden h-full flex flex-col">
