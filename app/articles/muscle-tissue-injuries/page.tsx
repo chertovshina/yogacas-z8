@@ -110,6 +110,18 @@ export default function MuscleInjuriesArticle() {
                 {"The primary cause of muscle strain is excessive load beyond its physiological capacity, or sudden force. Most commonly, injury occurs when the muscle lengthens during contraction under load—though it may seem strange at first that muscle fiber contraction involves lengthening. This type of contraction is called eccentric or asymmetric.\nFor example, in sprinting or tennis, when the leg is extended and the toes provide push-off for forward movement, the sudden burst creates not only muscle fiber lengthening but also substantial load, as muscles must support the entire body weight and the force required for movement. Tears in such injuries can be complete or partial, occurring at the muscle-tendon junction, within the tendon itself, or at the tendon-bone attachment site.\nIn everyday sports and daily life, injuries most commonly result from either impact or excessive load. The following classification exists:\n\nContracture – a spasm, excessive increase in muscle tone. Due to sudden muscle shortening, a person experiences pain (with or without palpation) that lacks clear localization.\nDelayed Onset Muscle Soreness (DOMS) – reversible changes in muscle caused by overload.\nStrain – damage to some muscle fibers that doesn't affect the connective tissue elements of the muscle. Pain appears at peak physical exertion, and the muscle injury is clearly identifiable through palpation.\nPartial fiber tear – occurs suddenly as sharp, spasming pain. Damage affects a limited number of muscle fibers; connective tissue is affected but minimally.\nPartial muscle tear – differs from the previous in the quantity and scale of damaged elements. Both connective and muscle tissue suffer. Manifests as pronounced pain syndrome and loss of muscle motor function.\nComplete rupture or muscle avulsion – the most serious injury in this classification. The muscle tears transversely into two separate parts, which sometimes, due to contraction, may be located far apart. Symptoms are dramatic: sharp severe pain, sometimes with audible sound at the moment of rupture, plus hematoma, increased muscle volume, and inability to bear weight on the limb."}
               </p>
 
+              {/* Large Image */}
+              <div className="my-12">
+                <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/muscle-injury-diagram.jpg"
+                    alt="Muscle fiber injury classification diagram"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 Consequences
               </h2>
