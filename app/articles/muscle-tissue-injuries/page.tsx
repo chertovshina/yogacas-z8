@@ -75,6 +75,34 @@ export default function MuscleInjuriesArticle() {
                 {"Skeletal muscles are one of three types of muscle tissue in the body, alongside smooth and cardiac muscle. Their key features include:\n\nCells have an elongated shape spanning the entire length of the muscle bundle (for example, in the quadriceps—the front thigh muscle—each cell runs the length of the entire thigh. Remarkable, isn\'t it?)\nAttach to bones via connective tissue (not always tendons, incidentally)\nContain multiple nuclei\nDisplay cross-striations that, under a microscope, make these cells resemble earthworms\n\nThese striations are particularly interesting because they enable muscle fiber contraction to one-third of its resting length in fractions of a second. The images below show cell structure as seen through light microscopy and electron micrograph. Slides 2-4 illustrate schematically how these dark and light bands consist of interlacing thin actin filaments (thread-like protein structures) and thick myosin filaments (actin and myosin are protein types), forming I-bands and A-bands respectively.\nHow does this system work? Simply yet brilliantly: like rowers, myosin filaments \"grab\" actin threads from both sides and pull them, thereby shortening the muscle cell. They \"re-grip\" new sections of actin several times, shifting them again—all happening in a fraction of a second."}
               </p>
 
+              {/* Image Row */}
+              <div className="grid grid-cols-3 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/muscle-diagram-1.jpg"
+                    alt="Muscle cell structure under light microscopy"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/muscle-diagram-2.jpg"
+                    alt="Muscle fiber electron micrograph"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/muscle-diagram-3.jpg"
+                    alt="Actin and myosin filament structure"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 Muscle Fiber Injuries
               </h2>
