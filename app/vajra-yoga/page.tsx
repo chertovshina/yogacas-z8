@@ -8,23 +8,23 @@ import { Button } from "@/components/ui/button"
 const principles = [
   {
     icon: Sparkles,
-    title: "Diamond Mind",
-    description: "Vajra, meaning 'diamond' or 'thunderbolt' in Sanskrit, represents the indestructible nature of awareness. Through practice, we cultivate a mind as clear and unbreakable as diamond.",
+    title: "Golden Rule",
+    description: "Shoulders parallel to hips. This fundamental alignment principle protects the spine and ensures safe, effective practice in every posture.",
   },
   {
     icon: Heart,
-    title: "Compassionate Action",
-    description: "Every movement in Vajra Yoga is infused with loving-kindness. We practice not just for ourselves, but for the benefit of all beings.",
+    title: "Stretch, Strengthen, Relax",
+    description: "The three essential phases of each practice. We stretch to create space, strengthen to build stability, and relax to integrate and restore.",
   },
   {
     icon: Wind,
-    title: "Breath as Bridge",
-    description: "The breath connects body and mind, the seen and unseen. Through conscious breathing, we access deeper states of awareness and healing.",
+    title: "Breath & Movement",
+    description: "Synchronize breath with movement; use Kumbhaka (breath hold) techniques. The breath guides each transition and deepens the practice.",
   },
   {
     icon: Sun,
-    title: "Inner Radiance",
-    description: "We believe that within each person lies an innate luminosity. Vajra Yoga helps unveil this natural brightness through dedicated practice.",
+    title: "Mahamudra",
+    description: "Being present here and now. Through mindful awareness, we cultivate the primordial state of non-dual presence in every moment.",
   },
 ]
 
