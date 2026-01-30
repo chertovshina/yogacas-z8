@@ -96,61 +96,13 @@ export default function ArticlesPage() {
       </section>
 
       {/* Categories */}
-      <section className="pb-12">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-wrap gap-3">
-            {categories.map((category) => (
-              <button
-                key={category}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  category === "All"
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-secondary text-secondary-foreground hover:bg-accent"
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Featured Article */}
       <section className="pb-16">
         <div className="container mx-auto px-6">
           <Link href={`/articles/${featuredArticle.slug}`} className="group block">
-            <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-card border border-border rounded-lg overflow-hidden">
-              <div className="relative aspect-[16/10] lg:aspect-auto">
-                <Image
-                  src={featuredArticle.image || "/placeholder.svg"}
-                  alt={featuredArticle.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <div className="p-8 lg:p-12 flex flex-col justify-center">
-                <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
-                  <span className="px-3 py-1 bg-accent rounded-full text-accent-foreground text-xs font-medium">
-                    {featuredArticle.category}
-                  </span>
-                  <span>{featuredArticle.date}</span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="h-3 w-3" />
-                    {featuredArticle.readTime}
-                  </span>
-                </div>
-                <h2 className="font-serif text-2xl md:text-3xl font-medium text-card-foreground mb-4 group-hover:text-primary transition-colors text-balance">
-                  {featuredArticle.title}
-                </h2>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  {featuredArticle.excerpt}
-                </p>
-                <span className="inline-flex items-center text-primary font-medium">
-                  Read Article
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
-              </div>
-            </article>
+            
           </Link>
         </div>
       </section>
@@ -204,29 +156,7 @@ export default function ArticlesPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-24 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-light leading-tight mb-4 text-balance">
-            Subscribe to My Newsletter
-          </h2>
-          <p className="text-primary-foreground/80 max-w-lg mx-auto mb-8">
-            Receive weekly teachings, practice tips, and mindful inspiration directly in your inbox.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="px-4 py-3 rounded-lg bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 flex-grow focus:outline-none focus:ring-2 focus:ring-primary-foreground/30"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-primary-foreground text-primary rounded-lg font-medium hover:bg-primary-foreground/90 transition-colors"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </section>
+      
 
       <Footer />
     </div>
