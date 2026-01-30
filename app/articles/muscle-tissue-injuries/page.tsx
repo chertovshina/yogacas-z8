@@ -97,7 +97,7 @@ export default function MuscleInjuriesArticle() {
               </p>
 
               <p className="leading-relaxed text-muted-foreground mt-6">
-                [Your additional content here]
+                Athletic Training Considerations
               </p>
             </div>
           </div>
