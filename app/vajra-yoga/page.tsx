@@ -149,10 +149,18 @@ export default function VajraYogaPage() {
                 </div>
                 <div className="border-l-2 border-primary pl-6">
                   <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Deep Side Bends
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Deep side bends may trigger vertebral shifts that compress nerve roots and cause health issues. Pelvic tilting can also lead to persistent sacroiliac joint displacement.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
                     No Deep Backbends
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Deep backbends can compromise spinal integrity and are avoided to protect the vertebrae and surrounding structures.
+                    Deep backbends may cause vertebral misalignment, which can disrupt nerve supply to internal organs and also lead to herniated discs.
                   </p>
                 </div>
                 <div className="border-l-2 border-primary pl-6">
@@ -160,7 +168,7 @@ export default function VajraYogaPage() {
                     No Headstands
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Headstands place excessive pressure on the cervical spine and are excluded from Vajra Yoga practice.
+                    In headstands, the thoracic spine experiences increased load from the weight of the legs, pelvis, and large lumbar vertebrae.
                   </p>
                 </div>
               </div>
