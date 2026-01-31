@@ -79,7 +79,7 @@ export default function MuscleInjuriesArticle() {
               <div className="grid grid-cols-3 gap-4 my-8">
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/muscle-diagram-1.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1c92eef9da85c3776fc4eb931be3bcb3-tm93alEgk2btPcdmXFrxIj3yX4mVkX.png"
                     alt="Muscle cell structure under light microscopy"
                     fill
                     className="object-cover"
@@ -87,7 +87,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/muscle-diagram-2.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7e4e41afce1e52d2c676efaf27d0f409-kflBJMLxNiqgKen05R7Zn1FH8NdWL6.png"
                     alt="Muscle fiber electron micrograph"
                     fill
                     className="object-cover"
@@ -95,7 +95,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/muscle-diagram-3.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0007bf899240b1e384bd6e869e789bf0-69Z26HreXsG8MQ6KCDf5ZhJvJxzXCC.png"
                     alt="Actin and myosin filament structure"
                     fill
                     className="object-cover"
@@ -114,7 +114,7 @@ export default function MuscleInjuriesArticle() {
               <div className="my-12">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/muscle-injury-diagram.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Muscles-B0qqAkVEr1CAgXCBiXfDgiYctJYzGB.jpg"
                     alt="Muscle fiber injury classification diagram"
                     fill
                     className="object-cover"
@@ -133,7 +133,7 @@ export default function MuscleInjuriesArticle() {
                 Prevention
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                {"Use your head. Truly. While no one is immune to accidental household injuries and falls, if you're about to lift something heavy, ask yourself:\n\nWhy am I doing this? (i.e., is it necessary?)\nDo I have sufficient muscle strength for this weight? (answer honestly, without bravado)\nCan I lift this using mechanical aids rather than my own strength? (justifying our title as Homo sapiens)"}
+                {"Use your head. Honestly. While no one is immune to accidental household injuries and falls, if you\'re about to lift something heavy, ask yourself:\n\nWhy am I doing this? (i.e., is it necessary?)\nDo I have sufficient muscle strength for this weight? (answer honestly, without bravado)\nCan I lift this using mechanical aids rather than my own strength? (justifying our title as Homo sapiens)"}
               </p>
 
               <p className="leading-relaxed text-muted-foreground mt-6">
