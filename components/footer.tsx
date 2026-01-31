@@ -61,9 +61,7 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-sm text-muted-foreground">
-              hello@vajrayoga.com
-            </p>
+            
           </div>
         </div>
 
