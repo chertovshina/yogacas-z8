@@ -1,11 +1,9 @@
 import Link from "next/link"
-import { Instagram, Youtube, Facebook, Mail } from "lucide-react"
+import { Instagram, Facebook } from "lucide-react"
 
 const socialLinks = [
   { href: "https://instagram.com", label: "Instagram", icon: Instagram },
-  { href: "https://youtube.com", label: "YouTube", icon: Youtube },
   { href: "https://facebook.com", label: "Facebook", icon: Facebook },
-  { href: "mailto:hello@vajrayoga.com", label: "Email", icon: Mail },
 ]
 
 const footerLinks = [
