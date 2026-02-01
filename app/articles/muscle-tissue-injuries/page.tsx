@@ -79,7 +79,7 @@ export default function MuscleInjuriesArticle() {
               <div className="grid grid-cols-3 gap-4 my-8">
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1c92eef9da85c3776fc4eb931be3bcb3-tm93alEgk2btPcdmXFrxIj3yX4mVkX.png"
+                    src="/images/1c92eef9da85c3776fc4eb931be3bcb3.png"
                     alt="Muscle cell structure under light microscopy"
                     fill
                     className="object-cover"
@@ -87,7 +87,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7e4e41afce1e52d2c676efaf27d0f409-kflBJMLxNiqgKen05R7Zn1FH8NdWL6.png"
+                    src="/images/7e4e41afce1e52d2c676efaf27d0f409.png"
                     alt="Muscle fiber electron micrograph"
                     fill
                     className="object-cover"
@@ -95,7 +95,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0007bf899240b1e384bd6e869e789bf0-69Z26HreXsG8MQ6KCDf5ZhJvJxzXCC.png"
+                    src="/images/0007bf899240b1e384bd6e869e789bf0.png"
                     alt="Actin and myosin filament structure"
                     fill
                     className="object-cover"
@@ -114,7 +114,7 @@ export default function MuscleInjuriesArticle() {
               <div className="my-12">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Muscles-B0qqAkVEr1CAgXCBiXfDgiYctJYzGB.jpg"
+                    src="/images/muscles.jpg"
                     alt="Muscle fiber injury classification diagram"
                     fill
                     className="object-cover"
@@ -136,7 +136,22 @@ export default function MuscleInjuriesArticle() {
                 {"Use your head. Honestly. While no one is immune to accidental household injuries and falls, if you\'re about to lift something heavy, ask yourself:\n\nWhy am I doing this? (i.e., is it necessary?)\nDo I have sufficient muscle strength for this weight? (answer honestly, without bravado)\nCan I lift this using mechanical aids rather than my own strength? (justifying our title as Homo sapiens)"}
               </p>
 
-              
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                Athletic Training Considerations
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                {"Many people engage in bodyweight training: running, fitness, calisthenics, CrossFit, etc. Here, the goal and motivating factor is often increasing muscle mass, which is commonly believed to require muscle micro-trauma during training, with the expectation that during rest, the body initiates repair of damaged cells through \"fusion\" and increased fiber count to form new myofibrils.\n\nHowever, much more significant factors in this process include genetics, age, sex, available creatine and lactic acid in muscles, etc. Therefore, never chase the beautiful images of bodybuilders—you may simply have different genetics, and you'll accumulate plenty of injuries along the way. Moreover, such hard-earned muscle volume \"deflates\" very quickly once training stops.\n\nThis isn't a call to abandon movement entirely and become a couch potato—physical activity must absolutely be present, but it should be coupled with rationality and yoga's fundamental principle: ahimsa—non-violence. First and foremost, toward your own body."}
+              </p>
+
+              {/* Signature */}
+              <div className="mt-16 pt-8 border-t border-border">
+                <p className="text-muted-foreground italic leading-relaxed">
+                  Wishing you health and balance of body and mind,
+                </p>
+                <p className="font-serif text-xl text-foreground mt-2">
+                  Anandi
+                </p>
+              </div>
             </div>
           </div>
         </div>
