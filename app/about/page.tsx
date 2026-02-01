@@ -67,7 +67,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative aspect-[3/4] rounded-lg overflow-hidden order-2 lg:order-1">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_09531-dLjYA5gaAQbAbnNmdsSW36hTYXOTRK.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_0857-zknL4y1pQgvGaL5YXifmhxwq58Hc7s.jpg"
                 alt="Yoga teacher portrait"
                 fill
                 className="object-cover"
@@ -193,7 +193,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Zcg9pgVrvDM-tnNhiUpoD89CU1Hs0A81n4EdzxDRLl.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1593543121217-eJdgGqMqdvO0sVgJ6DeSGtH18SZ1hs.jpg"
                 alt="Peaceful moment of reflection"
                 fill
                 className="object-cover"
@@ -211,7 +211,7 @@ export default function AboutPage() {
                 I would love to meet you on the mat and be part of your journey. Whether you are taking your first yoga class or deepening an established practice, there is a place for you here.
               </p>
               <Button asChild>
-                <Link href="/blog">
+                <Link href="/articles">
                   Read My Writings
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>

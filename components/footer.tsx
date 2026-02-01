@@ -1,18 +1,16 @@
 import Link from "next/link"
-import { Instagram, Youtube, Facebook, Mail } from "lucide-react"
+import { Instagram, Facebook } from "lucide-react"
 
 const socialLinks = [
   { href: "https://instagram.com", label: "Instagram", icon: Instagram },
-  { href: "https://youtube.com", label: "YouTube", icon: Youtube },
   { href: "https://facebook.com", label: "Facebook", icon: Facebook },
-  { href: "mailto:hello@vajrayoga.com", label: "Email", icon: Mail },
 ]
 
 const footerLinks = [
   { href: "/", label: "Home" },
   { href: "/vajra-yoga", label: "Vajra Yoga" },
   { href: "/about", label: "About Me" },
-  { href: "/blog", label: "Blog" },
+  { href: "/articles", label: "Articles" },
 ]
 
 export function Footer() {
@@ -61,9 +59,7 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-sm text-muted-foreground">
-              hello@vajrayoga.com
-            </p>
+            
           </div>
         </div>
 

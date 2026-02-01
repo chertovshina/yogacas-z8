@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Instagram, Youtube, Facebook } from "lucide-react"
+import { ArrowRight, Instagram, Facebook } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
@@ -29,7 +29,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_08661-ejXgstmY9xiB4nBVsBaiB1LqirpOUu.jpg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_0866-Hh1B7iiOX4YL4Yz9v0mPFE8MKWq48D.jpg"
             alt="Peaceful yoga practice in a serene studio"
             fill
             className="object-cover"
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="max-w-2xl">
             <div className="mb-6">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vajra%20Logo%20Gradient-6FVx0x1HR6S5ZpldxGoNsSn0DgRG5F.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vajra%20Logo%20Gradient-AEg1SH08qZlAF1Kp54HSTJ0wSUw6MX.jpg"
                 alt="Vajra Yoga logo"
                 width={80}
                 height={100}
@@ -54,7 +54,7 @@ export default function Home() {
               Spine-friendly Yoga       
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Vajra Yoga (or Yoga of Correct Approach to the Spine - CAS) is a spine-friendy practice that nurtures your body, calms your mind and awakens your spirit.
+              Vajra Yoga (or Yoga of Correct Approach to the Spine - CAS) is a spine-friendly practice that nurtures your body, calms your mind and awakens your spirit.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_08572-hFlaZSjZ5wk3L304tQUktvUda2EiJj.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_0857-3je0QQLRGQc5kEJ2DZfjKMfJkM2LD9.jpg"
                 alt="Yoga teacher portrait"
                 fill
                 className="object-cover"
@@ -92,9 +92,6 @@ export default function Home() {
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 With over 15 years of dedicated practice and teaching, I have had the honor of guiding hundreds of students on their path to wellness. My approach combines the ancient yoga wisdom with modern understanding of anatomy and biomechanics.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                {""}
               </p>
               <Button variant="link" className="p-0 h-auto text-primary" asChild>
                 <Link href="/about">
@@ -182,7 +179,6 @@ export default function Home() {
             >
               <Instagram className="h-6 w-6" />
             </a>
-            
             <a
               href="https://facebook.com/groups/602767447026998"
               target="_blank"

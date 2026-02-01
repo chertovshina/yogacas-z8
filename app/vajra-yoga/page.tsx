@@ -8,23 +8,23 @@ import { Button } from "@/components/ui/button"
 const principles = [
   {
     icon: Sparkles,
-    title: "Diamond Mind",
-    description: "Vajra, meaning 'diamond' or 'thunderbolt' in Sanskrit, represents the indestructible nature of awareness. Through practice, we cultivate a mind as clear and unbreakable as diamond.",
+    title: "Golden Rule",
+    description: "Shoulders parallel to hips. This fundamental alignment principle protects the spine and ensures safe, effective practice in every posture.",
   },
   {
     icon: Heart,
-    title: "Compassionate Action",
-    description: "Every movement in Vajra Yoga is infused with loving-kindness. We practice not just for ourselves, but for the benefit of all beings.",
+    title: "Stretch, Strengthen, Relax",
+    description: "The three essential phases of each practice. We stretch to create space, strengthen to build stability, and relax to integrate and restore.",
   },
   {
     icon: Wind,
-    title: "Breath as Bridge",
-    description: "The breath connects body and mind, the seen and unseen. Through conscious breathing, we access deeper states of awareness and healing.",
+    title: "Breath & Movement",
+    description: "Synchronize breath with movement; use Kumbhaka (breath hold) techniques. The breath guides each transition and deepens the practice.",
   },
   {
     icon: Sun,
-    title: "Inner Radiance",
-    description: "We believe that within each person lies an innate luminosity. Vajra Yoga helps unveil this natural brightness through dedicated practice.",
+    title: "Mahamudra",
+    description: "Being present here and now. Through mindful awareness, we cultivate the primordial state of non-dual presence in every moment.",
   },
 ]
 
@@ -133,22 +133,44 @@ export default function VajraYogaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-                The Path
+                Safe Practice
               </p>
               <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground leading-tight mb-8 text-balance">
-                What We Practice
+                Spine-friendly Practice
               </h2>
-              <div className="space-y-8">
-                {practices.map((practice, index) => (
-                  <div key={index} className="border-l-2 border-primary pl-6">
-                    <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                      {practice.title}
-                    </h3>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {practice.description}
-                    </p>
-                  </div>
-                ))}
+              <div className="space-y-6">
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Twists
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Twisting compresses the intervertebral foramina, which can impair nerve function and lead to internal organ dysfunction.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Deep Side Bends
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Deep side bends may trigger vertebral shifts that compress nerve roots and cause health issues. Pelvic tilting can also lead to persistent sacroiliac joint displacement.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Deep Backbends
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Deep backbends may cause vertebral misalignment, which can disrupt nerve supply to internal organs and also lead to herniated discs.
+                  </p>
+                </div>
+                <div className="border-l-2 border-primary pl-6">
+                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
+                    No Headstands
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    In headstands, the thoracic spine experiences increased load from the weight of the legs, pelvis, and large lumbar vertebrae.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
@@ -161,14 +183,6 @@ export default function VajraYogaPage() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Quote Section */}
-      
-
-      {/* Who Is It For */}
-      <section className="py-24">
-        
       </section>
 
       <Footer />
