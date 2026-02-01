@@ -136,9 +136,7 @@ export default function MuscleInjuriesArticle() {
                 {"Use your head. Honestly. While no one is immune to accidental household injuries and falls, if you\'re about to lift something heavy, ask yourself:\n\nWhy am I doing this? (i.e., is it necessary?)\nDo I have sufficient muscle strength for this weight? (answer honestly, without bravado)\nCan I lift this using mechanical aids rather than my own strength? (justifying our title as Homo sapiens)"}
               </p>
 
-              <p className="leading-relaxed text-muted-foreground mt-6">
-                Athletic Training Considerations
-              </p>
+              
             </div>
           </div>
         </div>
