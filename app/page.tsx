@@ -29,7 +29,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-yoga.jpg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_0866-Hh1B7iiOX4YL4Yz9v0mPFE8MKWq48D.jpg"
             alt="Peaceful yoga practice in a serene studio"
             fill
             className="object-cover"
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="max-w-2xl">
             <div className="mb-6">
               <Image
-                src="/images/vajra-logo.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vajra%20Logo%20Gradient-AEg1SH08qZlAF1Kp54HSTJ0wSUw6MX.jpg"
                 alt="Vajra Yoga logo"
                 width={80}
                 height={100}
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
               <Image
-                src="/images/about-yoga.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_0857-3je0QQLRGQc5kEJ2DZfjKMfJkM2LD9.jpg"
                 alt="Yoga teacher portrait"
                 fill
                 className="object-cover"
