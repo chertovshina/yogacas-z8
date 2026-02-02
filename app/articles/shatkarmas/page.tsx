@@ -50,8 +50,8 @@ export default function ShatkarmasArticle() {
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-01%20130424-Qe2wWw3ZxGx7Fl4LDH662CvcmU0ufw.png"
-                alt="Shatkarmas yogic cleansing practices"
+                src="/images/article-shatkarmas-neti.png"
+                alt="Copper neti pot for Jala Neti yogic cleansing practice"
                 fill
                 className="object-cover"
                 priority

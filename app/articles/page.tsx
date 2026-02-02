@@ -18,7 +18,7 @@ const articles = [
     slug: "shatkarmas",
     title: "Shatkarmas",
     excerpt: "Exploring the six traditional yogic cleansing practices and their benefits for purifying body and mind.",
-    image: "/images/article-shatkarmas.jpg",
+    image: "/images/article-shatkarmas-neti.png",
     date: "January 15, 2026",
     readTime: "10 min read",
     category: "Foundations",
