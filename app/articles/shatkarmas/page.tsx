@@ -66,9 +66,14 @@ export default function ShatkarmasArticle() {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6 text-foreground">
-              <p className="text-lg leading-relaxed text-muted-foreground italic text-right">
-                {"\"He who is of weak constitution and phlegmatic, subject to kapha disorders, should first practice shatkarma. Those not suffering constitutionally from the disorders due to vata, pitta, and kapha do not need it. Shatkarma is dhauti, basti, neti, trataka, nauli, and kapalabhati.\" \n- Svatmarama, \"Hatha Yoga Pradipika\""}
-              </p>
+              <div className="text-right">
+                <p className="text-lg leading-relaxed text-muted-foreground italic">
+                  &quot;He who is of weak constitution and phlegmatic, subject to kapha disorders, should first practice shatkarma. Those not suffering constitutionally from the disorders due to vata, pitta, and kapha do not need it. Shatkarma is dhauti, basti, neti, trataka, nauli, and kapalabhati.&quot;
+                </p>
+                <p className="text-muted-foreground font-bold mt-2">
+                  - Svatmarama, &quot;Hatha Yoga Pradipika&quot;
+                </p>
+              </div>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 The Six Cleansing Practices
