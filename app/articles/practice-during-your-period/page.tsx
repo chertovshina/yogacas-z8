@@ -123,12 +123,20 @@ export default function PeriodPracticeArticle() {
                 <p className="leading-relaxed text-muted-foreground">
                 A comfortable variation is to use a chair or sofa with additional pillows. Breathe into the belly, expanding it on the inhale and observing the movements of the diaphragm during the breathing process. Try to eliminate habitual chest breathing, consciously shifting your attention to the forward and backward movement of the abdominal wall during inhalations and exhalations.
               </p>
-              {/* Relaxing Positions Image */}
-              <div className="my-8">
-                <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
+              {/* Relaxing Positions Images */}
+              <div className="grid grid-cols-2 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56621-fiSAImpsYCsLiJD4n0PDdvVEWf92wl.jpg"
-                    alt="Relaxing yoga positions for menstrual comfort"
+                    src="/images/dsc-56621.jpg"
+                    alt="Forward fold from Vajrasana with pillow support"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/vajrasana-variation-2.jpg"
+                    alt="Vajrasana variation with chair support"
                     fill
                     className="object-cover"
                   />
@@ -146,7 +154,7 @@ export default function PeriodPracticeArticle() {
               <div className="my-8">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56671-aYJGmS5wrwEJlO6PEbnCiu9NvhXUuX.jpg"
+                    src="/images/dsc-56671.jpg"
                     alt="Relaxing yoga positions for menstrual comfort"
                     fill
                     className="object-cover"
