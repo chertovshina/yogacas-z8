@@ -50,7 +50,7 @@ export default function LegSwingArticle() {
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/beautiful_yogi_girl_in_purple_and_lavender_lululemon_clothes_doing_yoga_on_a_mat_in_a_yoga_studou_p_zv2mzyjzeu244m6ecj2l_3-pEwSIpX6kEnsO34bxVGfc2gmMUwgUm.png"
+                src="/images/beautiful-yogi-girl-in-purple-and-lavender-lululemon-clothes-doing-yoga-on-a-mat-in-a-yoga-studou-p-zv2mzyjzeu244m6ecj2l-3.png"
                 alt="Leg swing-through yoga transition"
                 fill
                 className="object-cover"
@@ -88,7 +88,7 @@ export default function LegSwingArticle() {
               <div className="my-8">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wrong-side-sitting-GuTeOCGrOcyPtJhMkW1uzJ6HV1azgF.jpg"
+                    src="/images/wrong-side-sitting.jpg"
                     alt="Incorrect leg transition showing skewed pelvis alignment"
                     fill
                     className="object-cover"
@@ -102,6 +102,34 @@ export default function LegSwingArticle() {
               <p className="leading-relaxed text-muted-foreground">
                 This is the most natural and straightforward method of sitting down or standing up, and the one we use most frequently in class. Cross the ankles and roll forward over them—or, correspondingly, roll backward if you are sitting down from a hands-and-knees position. Pay attention to positioning your knees as wide as your body allows. Ideally, each ankle should be directly above the other. This ensures a smooth and painless transition. Conversely, if the knees are placed too narrow, the shins will press against each other, causing discomfort and forcing the hips to skew during the roll—maintaining symmetry in such a position demands considerable effort. After rolling onto the knees, release the feet, tuck them onto the balls of the feet, and rise to standing. The photographs below illustrate each step.
               </p>
+
+              {/* Crossed Ankles Method Images */}
+              <div className="grid grid-cols-3 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/crossed-ankles-1.jpg"
+                    alt="Step 1: Cross ankles with knees wide"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/crossed-ankles-2.jpg"
+                    alt="Step 2: Roll forward over crossed ankles"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/crossed-ankles-3.jpg"
+                    alt="Step 3: Rise to standing position"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 2. Rolling Through the Feet
