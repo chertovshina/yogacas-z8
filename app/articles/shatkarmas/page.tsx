@@ -145,16 +145,22 @@ export default function ShatkarmasArticle() {
                 <b>Technique:</b> Drink 1.5–2 liters of lukewarm water. Stimulate the gag reflex by pressing your fingers against the root of the tongue until you expel the water. At first, this may feel uncomfortable—you may sneeze or cough—but by the tenth attempt, the gag reflex will become as natural as swallowing. Like Bhasti, Dhauti should primarily be practiced when indicated. Individuals who are underweight should avoid frequent use.
               </p>
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Precautions and Guidance
+                5. Neti
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+                A sinus cleansing technique. Yogis recommend using a special neti pot—a vessel resembling a small teapot with a spout designed to fit into the nostril. Saline water is typically used. Do not practice Neti before going outdoors during cold weather, and particularly avoid it during frost. It is also contraindicated during inflammatory or purulent processes in the sinuses, to prevent infection from reaching the inner ear via the Eustachian tube.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Pour water through the neti pot into the left nostril while tilting your head to the right, allowing water to flow freely out of the right nostril. Then switch sides. Use water at body temperature. It is worth noting that some yogis practice a more intense form of cleansing called Sutra Neti, in which a special thread is drawn through the nostrils to clear mucus.
               </p>
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Precautions and Guidance
+                {"6. Trataka"}
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+                Both a contemplative yogic practice and a cleansing technique with notable detoxifying effects. According to established scientific understanding, the body eliminates toxins through tears as well—making the deliberate induction of tears genuinely beneficial to health.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Fix your gaze on a single point and do not blink. You may focus on anything—flowing water, a candle flame, a leaf—or simply soften your gaze. Hold this without blinking until tears arise. Practice for 5–30 minutes. Trataka also supports the attainment of Chitta Vritti Nirodhah—the state of a clear, undisturbed mind. Historically, yogis have also used Trataka as a gateway into the state of Dhyana, which leads to Samadhi and self-knowledge.
               </p>
             </div>
           </div>
