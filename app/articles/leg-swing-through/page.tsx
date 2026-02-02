@@ -50,7 +50,7 @@ export default function LegSwingArticle() {
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src="/images/beautiful-yogi-girl-in-purple-and-lavender-lululemon-clothes-doing-yoga-on-a-mat-in-a-yoga-studou-p-zv2mzyjzeu244m6ecj2l-3.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/beautiful_yogi_girl_in_purple_and_lavender_lululemon_clothes_doing_yoga_on_a_mat_in_a_yoga_studou_p_zv2mzyjzeu244m6ecj2l_3-7KNOL3h2EITrdQ2K588G3ELsVkVy6h.png"
                 alt="Leg swing-through yoga transition"
                 fill
                 className="object-cover"
@@ -88,7 +88,7 @@ export default function LegSwingArticle() {
               <div className="my-8">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/wrong-side-sitting.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wrong-side-sitting-xwTN4pRSgCq4hI5fJHiDpj7K408Nzn.jpg"
                     alt="Incorrect leg transition showing skewed pelvis alignment"
                     fill
                     className="object-cover"
@@ -107,7 +107,7 @@ export default function LegSwingArticle() {
               <div className="grid grid-cols-3 gap-4 my-8">
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/crossed-ankles-1.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55421-waX7xDNzAlDj3Yro4zrBHRhAWVVLh2.jpg"
                     alt="Step 1: Cross ankles with knees wide"
                     fill
                     className="object-cover"
@@ -115,7 +115,7 @@ export default function LegSwingArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/crossed-ankles-2.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55502-2-1qWgqD0kKGzQkQBzmfXMPdAodzFTt4.jpg"
                     alt="Step 2: Roll forward over crossed ankles"
                     fill
                     className="object-cover"
@@ -123,7 +123,7 @@ export default function LegSwingArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/crossed-ankles-3.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55452-U8WhrVr5FPUDP34n1QbTSL324qTnT9.jpg"
                     alt="Step 3: Rise to standing position"
                     fill
                     className="object-cover"
@@ -137,13 +137,66 @@ export default function LegSwingArticle() {
               <p className="leading-relaxed text-muted-foreground">
                 {"Some practitioners find it very difficult to roll symmetrically through crossed shins. This is usually due to limited hip joint mobility, which prevents the knees from being placed wide enough. For these individuals, an alternative method exists: rolling forward through the joined soles of the feet. This approach is slightly more challenging but offers an effective solution to the symmetry problem.\nTo perform it from a seated position, bend the knees and place the feet together. Straighten the spine, then using the fingers or fists against the floor, roll forward with momentum onto the feet, arriving in a squat position. From there, it is easy to stand. When reversing the sequence, remember that lowering from a squat to a seated position must be done with full awareness, supporting yourself with your hands pressed into the floor.\n"}
               </p>
-
+{/* Rolling Feet Method Images */}
+              <div className="grid grid-cols-3 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55632-rxK2GkfApf3MsFU9ePveHd0iOXz8dP.jpg"
+                    alt="Step 1: Cross ankles with knees wide"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55482-CgZqX7l7S2ExwUcBBZRkXBQqUSLCRq.jpg"
+                    alt="Step 2: Roll forward over crossed ankles"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55462-WXgbYcscIwzTuWxWMPEG9PhGWQr0uJ.jpg"
+                    alt="Step 3: Rise to standing position"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 3. Virasana
               </h2>
               <p className="leading-relaxed text-muted-foreground">
                 {"This final method is for special cases. It demands a high degree of mindfulness and healthy knee joints. If this does not apply to you, disregard it. However, since we are covering the topic of leg transitions, I cannot omit the Virasana method.\nTo perform it from a seated position, lean back with a straight spine, engaging the abdominal muscles well. Lift the legs, bending them at the knees, and hold the feet with your hands, placing the soles on either side of the hips. Then roll forward onto the knees. Done—you may now stand.\nThe same applies in reverse from a standing position: come down onto your hands and knees, bringing the knees together. Place the feet wider apart and sit between them. Then, leaning back with an upright torso, lift the knees and straighten the legs. Done—you are seated.\n"}
               </p>
+              {/* Virasana */}
+              <div className="grid grid-cols-3 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55652-3YOXmIKVZhOvKdqQm9xeceKYlh6lPG.jpg"
+                    alt="Step 1: Cross ankles with knees wide"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55622-nkFbMx57aszzPBjlMXdnzjg0uWglby.jpg"
+                    alt="Step 2: Roll forward over crossed ankles"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55682-ErKsvmp9mXTUaBamZz8ic4C4Q4um2Q.jpg"
+                    alt="Step 3: Rise to standing position"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
