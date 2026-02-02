@@ -139,7 +139,10 @@ export default function ShatkarmasArticle() {
                 4. Dhauti (also known as Baghi or Kunjala)
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+                A stomach cleansing technique. The stomach serves several functions: motor, secretory (release of enzymes), and excretory. It is the excretory function that concerns us here. Interestingly, toxins from the blood migrate into the stomach. This can be confirmed by medical professionals: even in cases of gas poisoning, paramedics first perform a gastric washout, precisely because toxins have already entered the stomach from the bloodstream. Is this a flaw of nature? Why do toxins migrate to the beginning of the digestive tract rather than its end? In fact, it is not a flaw at all—it is the body&apos;s natural cleansing mechanism. Beyond its direct physical effect, Dhauti also has a notable psychological benefit: it provides relief from stress accumulated through difficult situations and conflicts.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Drink 1.5–2 liters of lukewarm water. Stimulate the gag reflex by pressing your fingers against the root of the tongue until you expel the water. At first, this may feel uncomfortable—you may sneeze or cough—but by the tenth attempt, the gag reflex will become as natural as swallowing. Like Bhasti, Dhauti should primarily be practiced when indicated. Individuals who are underweight should avoid frequent use.
               </p>
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 Precautions and Guidance
