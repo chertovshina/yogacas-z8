@@ -64,7 +64,7 @@ export default function ShatkarmasArticle() {
       {/* Article Content */}
       <section className="pb-24">
         <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto prose prose-lg">
+          <div className="max-w-3xl mx-auto">
             <div className="space-y-6 text-foreground">
               <p className="text-lg leading-relaxed text-muted-foreground">
                 [Your content here] Shatkarmas, also known as Shatkriyas, are six purification techniques described in traditional Hatha Yoga texts. These practices are designed to cleanse the body and prepare it for deeper yogic practices.
