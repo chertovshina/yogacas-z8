@@ -66,8 +66,8 @@ export default function ShatkarmasArticle() {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6 text-foreground">
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas, also known as Shatkriyas, are six purification techniques described in traditional Hatha Yoga texts. These practices are designed to cleanse the body and prepare it for deeper yogic practices.
+              <p className="text-lg leading-relaxed text-muted-foreground italic text-right">
+                {"\"He who is of weak constitution and phlegmatic, subject to kapha disorders, should first practice shatkarma. Those not suffering constitutionally from the disorders due to vata, pitta, and kapha do not need it. Shatkarma is dhauti, basti, neti, trataka, nauli, and kapalabhati.\" \n- Svatmarama, \"Hatha Yoga Pradipika\""}
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
