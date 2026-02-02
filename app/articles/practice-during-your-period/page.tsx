@@ -66,36 +66,103 @@ export default function PeriodPracticeArticle() {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto prose prose-lg">
             <div className="space-y-6 text-foreground">
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                [Your content here] Menstruation is a natural process, and yoga practice can be adapted to support your body during this time. Understanding how to modify your practice can help you stay connected to your yoga journey while honoring your body's needs.
+              
+
+              
+              <p className="leading-relaxed text-muted-foreground">
+                In the modern world, the overwhelming majority of yoga practitioners are women. Presumably, the psychological appeal of fluid movements and certain popular poses demonstrating flexibility creates the impression that this form of physical activity (and here we are considering the level of the physical body) is better suited to women. Historically, however, yoga was practiced primarily by men, and this is likely why none of the few treatises that have survived to the present day contain information about what practices women should do during their menstrual cycle. Perhaps there was no need for such guidance, since in Indian culture, a woman&apos;s body during this period is considered &quot;impure,&quot; and she is prohibited from entering temples, preparing ritual foods, engaging in heavy physical labor, or touching &quot;pure&quot; ritual objects, lest she contaminate them on a subtle level. Therefore, the question of yoga practice was naturally excluded. This state of affairs is neither bad nor good in Eastern culture. It simply means that for a few days each month, a woman needs rest and quiet while her body undergoes its cleansing process.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                Today, it is difficult for us to simply step away from life for several days: we want to continue our training programs and maintain physical activity. Nevertheless, there are certain contraindications for yoga practice (which also apply to other activities in daily life) for at least the first three days of the menstrual cycle.
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Understanding Your Cycle
+                Contraindications
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] The menstrual cycle affects energy levels, mood, and physical comfort. Learning to recognize these patterns can help you adapt your practice accordingly.
+                <b>• Inverted positions.</b> Any pose in which the pelvis is higher than the shoulders is considered inverted. In this case, gravity forces menstrual blood containing cells of the inner uterine lining (endometrium) to move in an unnatural direction. When this enters the fallopian tubes, it is deposited into the abdominal cavity. Subsequently, the endometrium is transported to surrounding tissues and the peritoneum, where it begins to proliferate, causing a common gynecological condition called endometriosis. This leads to painful periods and is incurable. It should be noted that medicine has not yet reached definitive conclusions about the causes of endometriosis—there are only theories, and this is one of them. Nevertheless, the logic is simple: if you don&apos;t particularly want to test this theory on yourself, don&apos;t interfere with nature doing its natural work.
+              </p>
+               <p className="leading-relaxed text-muted-foreground">
+                <b>• Uddiyana and Mula Bandhas, Nauli.</b> For the same reasons described above, it is not recommended to perform abdominal manipulations that create a vacuum and upward suction. Actions that similarly disrupt the natural course of events include Agnisara Dhauti Kriya. Along with inverted poses, the aforementioned manipulations, if performed during the first days of menstruation, drastically shorten the cycle duration and can lead to fibroids, cysts, endometriosis, and other unpleasant formations.
+              </p>
+               <p className="leading-relaxed text-muted-foreground">
+                <b>• Strong tension of the abdominal muscles</b> (beyond what is needed for core stabilization in upright and tilted positions) — Kapalabhati and Bhastrika pranayamas, and any core workout asanas such as Navasana. These increase blood supply to the uterus and stimulate its muscular activity, which is entirely unnecessary during menstruation.
+              </p>
+               <p className="leading-relaxed text-muted-foreground">
+                <b>• Twists.</b> It is perhaps unnecessary to remind you that twists are harmful to the spine on any day, but during menstruation they create additional compression of the abdomen, which can intensify painful sensations. A double reason to abandon them once and for all.
+              </p>
+               <p className="leading-relaxed text-muted-foreground">
+                Overall, these are recommendations. Of course, the principle &quot;if you really want to, you can&quot; always applies, but a state of balance and harmony with nature—with your wise body—is far more important during these days than ambitious prodding from the mind, isn&apos;t it?
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Poses to Embrace
+                So What Should You Do?
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Gentle, restorative poses that can provide comfort and support during menstruation. Focus on poses that encourage relaxation and ease tension without strain.
+                Yoga practice can certainly continue during menstruation if desired. Simply emphasize calm, static holds in asanas and measured breathing. Direct your attention inward, concentrating on bodily sensations and your body&apos;s interaction with space. If you are in a group class, do not hesitate to modify asanas you don&apos;t wish to perform. Instead of downward-facing dog—child&apos;s pose; instead of active breathing practices and kriyas—Nadi Shodhana pranayama or complete yogic breathing; instead of Mahabandha—omit Uddiyana or substitute Tadagi Mudra. And so on. Learn to feel your body and try not to be swayed by your ego, the group, or an instructor who may not know that you are menstruating today.
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Poses to Avoid or Modify
+                Causes of Painful Periods
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Certain poses may not be suitable during menstruation. Learn which poses to skip or modify and understand the reasoning behind these guidelines.
+                Unfortunately, many women experience severe (or moderate) pain during menstruation—sometimes only on the first day, sometimes throughout the entire period. This may also be accompanied by a whole array of symptoms: intestinal upset, headaches, chills, mood swings, etc. The physical causes of pain include compression of nerve roots in the lumbar region and, as a consequence, elevated levels of the hormone prostaglandin, which is responsible for strong uterine contractions during endometrial shedding in the first days of menstruation. This can also result from the formation of large blood clots or compression of the uterus due to fibroid nodules.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                Below, I will show a couple of relaxing body positions that reduce the pain of lower abdominal cramps and support the natural processes of the female body. Gather pillows, blankets, bolsters, or other soft items to create a &quot;nest&quot; for yourself, and position yourself near a chair or sofa.
               </p>
 
+            
+
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Listening to Your Body
+                Forward Fold from Vajrasana
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Above all, your practice during menstruation should be guided by how you feel. Some days you may feel energized, while others call for complete rest.
+                Sitting on your heels, spread your knees wide apart and fold your torso forward onto a pre-prepared stack of pillows. Make the support high enough so that you are not straining your lower back in the fold, but rather pleasantly relaxing into the cushions, with your hands (or fists) placed under your forehead for additional support.
+              </p>
+                <p className="leading-relaxed text-muted-foreground">
+                A comfortable variation is to use a chair or sofa with additional pillows. Breathe into the belly, expanding it on the inhale and observing the movements of the diaphragm during the breathing process. Try to eliminate habitual chest breathing, consciously shifting your attention to the forward and backward movement of the abdominal wall during inhalations and exhalations.
+              </p>
+              {/* Relaxing Positions Images */}
+              <div className="grid grid-cols-2 gap-4 my-8">
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56621-2ChOGLMIZkmY35bQXRCL5IPRlTt0L0.jpg"
+                    alt="Forward fold from Vajrasana with pillow support"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56691-JLs7jXOO7wog0ra1v8ikd95Bjolurk.jpg"
+                    alt="Vajrasana variation with chair support"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            
+            
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                Paschimottanasana Variation with Elbow Support
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Bend your slightly separated legs at the knees and fold forward until your belly and chest rest against the front of your thighs. Rest your elbows on your legs and place your forehead on your palms or fists. The back and neck should be relaxed but not rounded—try to maintain them in a straight line. Again, engage abdominal breathing, observing the sensations in the lower abdomen, consciously attempting to release spasms, and feeling how the lower belly fills with pleasant, soft, even warmth.
+              </p>
+              {/* Relaxing Positions Image */}
+              <div className="my-8">
+                <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56671-fw90qARBZS2UojleFYyH3ETErjubr9.jpg"
+                    alt="Relaxing yoga positions for menstrual comfort"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                {"With the very best wishes for health and happiness in the female body."}
               </p>
             </div>
           </div>

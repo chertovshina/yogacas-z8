@@ -50,8 +50,8 @@ export default function ShatkarmasArticle() {
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src="/images/article-shatkarmas.jpg"
-                alt="Shatkarmas yogic cleansing practices"
+                src="/images/article-shatkarmas-neti.png"
+                alt="Copper neti pot for Jala Neti yogic cleansing practice"
                 fill
                 className="object-cover"
                 priority
@@ -64,38 +64,103 @@ export default function ShatkarmasArticle() {
       {/* Article Content */}
       <section className="pb-24">
         <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto prose prose-lg">
+          <div className="max-w-3xl mx-auto">
             <div className="space-y-6 text-foreground">
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas, also known as Shatkriyas, are six purification techniques described in traditional Hatha Yoga texts. These practices are designed to cleanse the body and prepare it for deeper yogic practices.
-              </p>
+              <div className="text-right">
+                <p className="text-lg leading-relaxed text-muted-foreground italic">
+                  &quot;He who is of weak constitution and phlegmatic, subject to kapha disorders, should first practice shatkarma. Those not suffering constitutionally from the disorders due to vata, pitta, and kapha do not need it. Shatkarma is dhauti, basti, neti, trataka, nauli, and kapalabhati.&quot;
+                </p>
+                <p className="text-muted-foreground font-bold mt-2">
+                  - Svatmarama, &quot;Hatha Yoga Pradipika&quot;
+                </p>
+              </div>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 The Six Cleansing Practices
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] The six shatkarmas are: Neti (nasal cleansing), Dhauti (digestive tract cleansing), Nauli (abdominal massage), Basti (colon cleansing), Kapalbhati (skull shining breath), and Trataka (concentrated gazing).
+                The most significant section of Hatha Yoga is Shatkarmas. Every yoga practice should begin with these exercises if the body is experiencing an imbalance of energies. Shatkarma translates as &quot;six actions&quot;—a set of regular practices that help the practitioner maintain physical health, develop awareness of internal organ function, and balance the doshas.
+              </p>
+                <p className="leading-relaxed text-muted-foreground">
+                Beyond their cleansing effect, these exercises also generate energy, stabilize the mind, and sharpen mental clarity. Once you begin mastering Shatkarmas, you will notice a shift in how you think and how you relate to yourself. You&apos;ll see it for yourself.
+              </p>
+                <p className="leading-relaxed text-muted-foreground">
+                Ancient texts clearly indicate that these techniques should be kept secret: &quot;These six practices, which cleanse the body, should be carefully kept secret, because they induce numerous wonderful results and are therefore held in high esteem among the great yogis…&quot; and &quot;A yogi who is desirous of developing siddhis should keep hatha yoga strictly secret, for only then will he have success. All his efforts will be in vain if he reveals everything without discrimination.&quot; (Hatha Yoga Pradipika)
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Neti - Nasal Cleansing
+                1. Kapalabhati
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Neti involves cleansing the nasal passages with warm saline water. This practice helps clear the sinuses, improve breathing, and can aid in preventing respiratory issues.
+                A cleansing technique for the respiratory tract that also has a pronounced energizing effect—essentially &quot;waking up&quot; the body. It is best performed in the morning or at the beginning of any training session.
+              </p>
+               <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Perform strong exhalations through the nose with short, rapid contractions of the abdominal muscles. Inhale smoothly, then exhale forcefully and quickly. Complete 12–54 cycles. As an added benefit, this exercise strengthens the abdominal muscles. Note that throughout the respiratory movements of the abdomen, the pelvic floor muscles should remain engaged and toned.
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Benefits of Shatkarmas
+                2. Nauli (Wave)
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Regular practice of shatkarmas can lead to improved digestion, clearer respiratory passages, enhanced mental clarity, and preparation of the body for pranayama and meditation.
+                One of the most important practices within Shatkarmas. It has virtually no contraindications—except for women during menstruation, during pregnancy, and for individuals with acute abdominal organ disorders—and leads to the balancing of doshas. Svatmarama states: &quot;Nauli is the principal practice of purification in Hatha Yoga. It ignites the digestive fire, eliminating digestive disorders and imbalances of all doshas, and creates happiness.&quot; (Hatha Yoga Pradipika). Anyone who performs 200–1,000 cycles of Nauli daily can attest to the truth of this statement.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                In yoga, certain techniques are considered secret. Nauli is one of them. Ancient yogic scriptures state that one who receives the knowledge of these techniques must keep it confidential — this is the only way they remain fully effective. This is true because thoughts carry weight: they can either interfere with practice or support it. I advise you to master each of these kriyas (actions) before sharing them with others, and only then begin guiding those who wish to learn yoga. One should never demonstrate yoga techniques for the sake of ego gratification.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Uddiyana Bandha</b> serves as the foundation for Nauli. Through Uddiyana Bandha, we massage the internal organs and boost metabolism. It does not require dedicated time—you can perform it while sitting at your desk, provided your stomach is empty.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                The next step in developing Nauli is forming the muscular &quot;wave&quot; of the abdominal muscles. We begin with <b>Madhyama Nauli</b> — a fixed muscular contraction in the center of the abdomen. Almost everyone is ready for this exercise, and no additional muscle or ligament conditioning is required. The key is developing muscular control: learning to send the correct signals from the brain to the muscles. The only way to achieve this is through repetition. Much like learning to walk — we stumble at first, but coordination eventually comes. Adults, of course, learn more slowly than children, but they bring greater life experience to the process.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                For healthy individuals, there is no limit to the practice of Nauli. The only requirement is that it be performed on an empty stomach. Nauli should not be practiced during acute abdominal illness, menstruation, or pregnancy. Both Nauli and Uddiyana Bandha are powerful practices capable of redirecting energy within the body in a profound way. The number of repetitions performed in group classes—108–216—is perfectly safe and highly beneficial. If needed, this can be increased to up to 2,000 repetitions in both directions (1,000 in each). Practicing Nauli at such volume may be warranted in cases of poor intestinal innervation leading to constipation, or, for example, when working to reduce excess abdominal fat.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                In the Gheranda Samhita scripture, this practice is called <b>Lauliki</b>, derived from the word &quot;lola,&quot; meaning &quot;rotation&quot; or &quot;stirring.&quot; Madhyama Nauli, the centrally fixed form, is also used in Tantra yoga to direct energy flows. It is a powerful practice capable of raising energy from the lower chakras. Madhyama Nauli is also employed in the mysterious practice of <b>Vajroli</b>, which belongs more to the Tantric tradition — though it is mentioned in the Pradipika. Vajroli is practiced strictly on an individual basis, not in group settings.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> It is easiest to learn Madhyama Nauli in a standing position with the knees slightly bent and the hands resting firmly on the knees. Vajrasana is also suitable. While holding Uddiyana Bandha and suspending the breath, isolate and engage the rectus abdominis (the &quot;six-pack&quot; muscles) while keeping the obliques relaxed. There are no special secrets to mastering this movement—simply keep practicing. On average, it takes anywhere from one day to two weeks to develop. Aim for at least 20 attempts daily. Remember that mastering any new coordination requires time and consistent effort. After mastering Madhyama Nauli, progress to <b>Vama and Dakshina Naulis</b> — the lateral waves moving to the left and right respectively. Always finish your practice with Vama Nauli (the leftward wave).
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Precautions and Guidance
+                3. Bhasti
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+                A colon cleansing technique. If you have no bowel disorders, there is no need to practice Bhasti frequently. Learn the technique and use it as needed—when bowel issues arise or when a thorough cleanse is called for.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Sit on your haunches in water at waist depth. Relax the pelvic floor muscles and perform Madhyama Nauli. The resulting abdominal vacuum will draw water rapidly into the intestines. Draw in as much water as you can, then release. Repeat until the outflowing water runs clear. If relaxing the anus proves difficult, yogis recommend using a tube—traditional Indian yogis use bamboo, though any suitable material will do. With a tube, some practitioners are able to draw water from a bowl or small bucket, eliminating the need for a bath or larger body of water. Yogis state that this practice generates a powerful upward energy flow, which on a physical level manifests as the lifting of water through the intestines.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                There is an old proverb: &quot;The shorter the intestine—the longer the life.&quot; This refers, of course, not to the literal length of one&apos;s intestine, but to how efficiently the body is able to eliminate waste. The large intestine does not absorb nutrients—that occurs in the small intestine—it absorbs only water. Those who have mastered Bhasti can confirm its beneficial effects not only on the body but on the mind as well. Nonetheless, it should primarily be practiced to address bowel disorders.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                4. Dhauti (also known as Baghi or Kunjala)
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                A stomach cleansing technique. The stomach serves several functions: motor, secretory (release of enzymes), and excretory. It is the excretory function that concerns us here. Interestingly, toxins from the blood migrate into the stomach. This can be confirmed by medical professionals: even in cases of gas poisoning, paramedics first perform a gastric washout, precisely because toxins have already entered the stomach from the bloodstream. Is this a flaw of nature? Why do toxins migrate to the beginning of the digestive tract rather than its end? In fact, it is not a flaw at all—it is the body&apos;s natural cleansing mechanism. Beyond its direct physical effect, Dhauti also has a notable psychological benefit: it provides relief from stress accumulated through difficult situations and conflicts.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Drink 1.5–2 liters of lukewarm water. Stimulate the gag reflex by pressing your fingers against the root of the tongue until you expel the water. At first, this may feel uncomfortable—you may sneeze or cough—but by the tenth attempt, the gag reflex will become as natural as swallowing. Like Bhasti, Dhauti should primarily be practiced when indicated. Individuals who are underweight should avoid frequent use.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                5. Neti
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                A sinus cleansing technique. Yogis recommend using a special neti pot—a vessel resembling a small teapot with a spout designed to fit into the nostril. Saline water is typically used. Do not practice Neti before going outdoors during cold weather, and particularly avoid it during frost. It is also contraindicated during inflammatory or purulent processes in the sinuses, to prevent infection from reaching the inner ear via the Eustachian tube.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Pour water through the neti pot into the left nostril while tilting your head to the right, allowing water to flow freely out of the right nostril. Then switch sides. Use water at body temperature. It is worth noting that some yogis practice a more intense form of cleansing called Sutra Neti, in which a special thread is drawn through the nostrils to clear mucus.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                {"6. Trataka"}
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Both a contemplative yogic practice and a cleansing technique with notable detoxifying effects. According to established scientific understanding, the body eliminates toxins through tears as well—making the deliberate induction of tears genuinely beneficial to health.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Fix your gaze on a single point and do not blink. You may focus on anything—flowing water, a candle flame, a leaf—or simply soften your gaze. Hold this without blinking until tears arise. Practice for 5–30 minutes. Trataka also supports the attainment of Chitta Vritti Nirodhah—the state of a clear, undisturbed mind. Historically, yogis have also used Trataka as a gateway into the state of Dhyana, which leads to Samadhi and self-knowledge.
               </p>
             </div>
           </div>

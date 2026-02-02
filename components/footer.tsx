@@ -22,7 +22,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-serif text-2xl font-medium text-foreground">Vajra Yoga with Anandi  </h3>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Guiding you on a journey of ano-harm practice through the wisdom of Vajra Yoga.
+              Guiding you on a journey of a no-harm practice through the wisdom of Vajra Yoga.
             </p>
           </div>
 
