@@ -111,6 +111,19 @@ export default function PeriodPracticeArticle() {
               <p className="leading-relaxed text-muted-foreground">
                 Below, I will show a couple of relaxing body positions that reduce the pain of lower abdominal cramps and support the natural processes of the female body. Gather pillows, blankets, bolsters, or other soft items to create a &quot;nest&quot; for yourself, and position yourself near a chair or sofa.
               </p>
+
+              {/* Relaxing Positions Image */}
+              <div className="my-8">
+                <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/period-relaxing-positions.jpg"
+                    alt="Relaxing yoga positions for menstrual comfort"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 Forward Fold from Vajrasana
               </h2>
