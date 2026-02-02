@@ -25,9 +25,9 @@ const articles = [
   },
   {
     slug: "leg-swing-through",
-    title: "Leg Swing-Through",
+    title: "Correct Leg Transitions: From Sitting to Standing and Back",
     excerpt: "A detailed guide to mastering the leg swing-through transition while protecting your spine and joints.",
-    image: "/images/article-leg-swing.jpg",
+    image: "/images/article-leg-transitions.png",
     date: "January 10, 2026",
     readTime: "6 min read",
     category: "Asana",
