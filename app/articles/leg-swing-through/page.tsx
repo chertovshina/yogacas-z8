@@ -50,7 +50,7 @@ export default function LegSwingArticle() {
           <div className="max-w-4xl mx-auto">
             <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_55482-HMeKVn88CBldGeOQf829p4lzudzIVH.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/beautiful_yogi_girl_in_purple_and_lavender_lululemon_clothes_doing_yoga_on_a_mat_in_a_yoga_studou_p_zv2mzyjzeu244m6ecj2l_3-OwWUKWPIiyiXFTAzP39uYdunvnZTFi.png"
                 alt="Leg swing-through yoga transition"
                 fill
                 className="object-cover"
