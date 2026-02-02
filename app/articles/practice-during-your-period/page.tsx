@@ -127,7 +127,7 @@ export default function PeriodPracticeArticle() {
               <div className="grid grid-cols-2 gap-4 my-8">
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/dsc-56621.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56621-2ChOGLMIZkmY35bQXRCL5IPRlTt0L0.jpg"
                     alt="Forward fold from Vajrasana with pillow support"
                     fill
                     className="object-cover"
@@ -135,7 +135,7 @@ export default function PeriodPracticeArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/vajrasana-variation-2.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56691-JLs7jXOO7wog0ra1v8ikd95Bjolurk.jpg"
                     alt="Vajrasana variation with chair support"
                     fill
                     className="object-cover"
@@ -154,13 +154,16 @@ export default function PeriodPracticeArticle() {
               <div className="my-8">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/dsc-56671.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56671-fw90qARBZS2UojleFYyH3ETErjubr9.jpg"
                     alt="Relaxing yoga positions for menstrual comfort"
                     fill
                     className="object-cover"
                   />
                 </div>
               </div>
+              <p className="leading-relaxed text-muted-foreground">
+                {"With the very best wishes for health and happiness in the female body."}
+              </p>
             </div>
           </div>
         </div>
