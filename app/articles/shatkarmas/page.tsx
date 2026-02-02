@@ -124,6 +124,30 @@ export default function ShatkarmasArticle() {
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                3. Bhasti
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                A colon cleansing technique. If you have no bowel disorders, there is no need to practice Bhasti frequently. Learn the technique and use it as needed—when bowel issues arise or when a thorough cleanse is called for.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> Sit on your haunches in water at waist depth. Relax the pelvic floor muscles and perform Madhyama Nauli. The resulting abdominal vacuum will draw water rapidly into the intestines. Draw in as much water as you can, then release. Repeat until the outflowing water runs clear. If relaxing the anus proves difficult, yogis recommend using a tube—traditional Indian yogis use bamboo, though any suitable material will do. With a tube, some practitioners are able to draw water from a bowl or small bucket, eliminating the need for a bath or larger body of water. Yogis state that this practice generates a powerful upward energy flow, which on a physical level manifests as the lifting of water through the intestines.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                There is an old proverb: &quot;The shorter the intestine—the longer the life.&quot; This refers, of course, not to the literal length of one&apos;s intestine, but to how efficiently the body is able to eliminate waste. The large intestine does not absorb nutrients—that occurs in the small intestine—it absorbs only water. Those who have mastered Bhasti can confirm its beneficial effects not only on the body but on the mind as well. Nonetheless, it should primarily be practiced to address bowel disorders.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                4. Dhauti (also known as Baghi or Kunjala)
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                Precautions and Guidance
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                [Your content here] Shatkarmas should ideally be learned under the guidance of an experienced teacher. Certain practices may not be suitable for everyone, and proper technique is essential for safety.
+              </p>
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
                 Precautions and Guidance
               </h2>
               <p className="leading-relaxed text-muted-foreground">
