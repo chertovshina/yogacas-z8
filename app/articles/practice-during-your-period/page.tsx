@@ -127,7 +127,7 @@ export default function PeriodPracticeArticle() {
               <div className="my-8">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/period-relaxing-positions.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56621-fiSAImpsYCsLiJD4n0PDdvVEWf92wl.jpg"
                     alt="Relaxing yoga positions for menstrual comfort"
                     fill
                     className="object-cover"
@@ -146,7 +146,7 @@ export default function PeriodPracticeArticle() {
               <div className="my-8">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="/images/period-relaxing-positions.jpg"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC_56671-aYJGmS5wrwEJlO6PEbnCiu9NvhXUuX.jpg"
                     alt="Relaxing yoga positions for menstrual comfort"
                     fill
                     className="object-cover"
