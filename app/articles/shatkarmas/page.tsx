@@ -99,10 +99,28 @@ export default function ShatkarmasArticle() {
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                1. Kapalabhati
+                2. Nauli (Wave)
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Regular practice of shatkarmas can lead to improved digestion, clearer respiratory passages, enhanced mental clarity, and preparation of the body for pranayama and meditation.
+                One of the most important practices within Shatkarmas. It has virtually no contraindications—except for women during menstruation, during pregnancy, and for individuals with acute abdominal organ disorders—and leads to the balancing of doshas. Svatmarama states: &quot;Nauli is the principal practice of purification in Hatha Yoga. It ignites the digestive fire, eliminating digestive disorders and imbalances of all doshas, and creates happiness.&quot; (Hatha Yoga Pradipika). Anyone who performs 200–1,000 cycles of Nauli daily can attest to the truth of this statement.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                In yoga, certain techniques are considered secret. Nauli is one of them. Ancient yogic scriptures state that one who receives the knowledge of these techniques must keep it confidential — this is the only way they remain fully effective. This is true because thoughts carry weight: they can either interfere with practice or support it. I advise you to master each of these kriyas (actions) before sharing them with others, and only then begin guiding those who wish to learn yoga. One should never demonstrate yoga techniques for the sake of ego gratification.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Uddiyana Bandha</b> serves as the foundation for Nauli. Through Uddiyana Bandha, we massage the internal organs and boost metabolism. It does not require dedicated time—you can perform it while sitting at your desk, provided your stomach is empty.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                The next step in developing Nauli is forming the muscular &quot;wave&quot; of the abdominal muscles. We begin with <b>Madhyama Nauli</b> — a fixed muscular contraction in the center of the abdomen. Almost everyone is ready for this exercise, and no additional muscle or ligament conditioning is required. The key is developing muscular control: learning to send the correct signals from the brain to the muscles. The only way to achieve this is through repetition. Much like learning to walk — we stumble at first, but coordination eventually comes. Adults, of course, learn more slowly than children, but they bring greater life experience to the process.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                For healthy individuals, there is no limit to the practice of Nauli. The only requirement is that it be performed on an empty stomach. Nauli should not be practiced during acute abdominal illness, menstruation, or pregnancy. Both Nauli and Uddiyana Bandha are powerful practices capable of redirecting energy within the body in a profound way. The number of repetitions performed in group classes—108–216—is perfectly safe and highly beneficial. If needed, this can be increased to up to 2,000 repetitions in both directions (1,000 in each). Practicing Nauli at such volume may be warranted in cases of poor intestinal innervation leading to constipation, or, for example, when working to reduce excess abdominal fat.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                In the Gheranda Samhita scripture, this practice is called <b>Lauliki</b>, derived from the word &quot;lola,&quot; meaning &quot;rotation&quot; or &quot;stirring.&quot; Madhyama Nauli, the centrally fixed form, is also used in Tantra yoga to direct energy flows. It is a powerful practice capable of raising energy from the lower chakras. Madhyama Nauli is also employed in the mysterious practice of <b>Vajroli</b>, which belongs more to the Tantric tradition — though it is mentioned in the Pradipika. Vajroli is practiced strictly on an individual basis, not in group settings.
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                <b>Technique:</b> It is easiest to learn Madhyama Nauli in a standing position with the knees slightly bent and the hands resting firmly on the knees. Vajrasana is also suitable. While holding Uddiyana Bandha and suspending the breath, isolate and engage the rectus abdominis (the &quot;six-pack&quot; muscles) while keeping the obliques relaxed. There are no special secrets to mastering this movement—simply keep practicing. On average, it takes anywhere from one day to two weeks to develop. Aim for at least 20 attempts daily. Remember that mastering any new coordination requires time and consistent effort. After mastering Madhyama Nauli, progress to <b>Vama and Dakshina Naulis</b> — the lateral waves moving to the left and right respectively. Always finish your practice with Vama Nauli (the leftward wave).
               </p>
 
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
