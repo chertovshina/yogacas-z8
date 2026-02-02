@@ -112,6 +112,17 @@ export default function PeriodPracticeArticle() {
                 Below, I will show a couple of relaxing body positions that reduce the pain of lower abdominal cramps and support the natural processes of the female body. Gather pillows, blankets, bolsters, or other soft items to create a &quot;nest&quot; for yourself, and position yourself near a chair or sofa.
               </p>
 
+            
+
+              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
+                Forward Fold from Vajrasana
+              </h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Sitting on your heels, spread your knees wide apart and fold your torso forward onto a pre-prepared stack of pillows. Make the support high enough so that you are not straining your lower back in the fold, but rather pleasantly relaxing into the cushions, with your hands (or fists) placed under your forehead for additional support.
+              </p>
+                <p className="leading-relaxed text-muted-foreground">
+                A comfortable variation is to use a chair or sofa with additional pillows. Breathe into the belly, expanding it on the inhale and observing the movements of the diaphragm during the breathing process. Try to eliminate habitual chest breathing, consciously shifting your attention to the forward and backward movement of the abdominal wall during inhalations and exhalations.
+              </p>
               {/* Relaxing Positions Image */}
               <div className="my-8">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
@@ -123,19 +134,25 @@ export default function PeriodPracticeArticle() {
                   />
                 </div>
               </div>
-
+            
+            
               <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Forward Fold from Vajrasana
+                Paschimottanasana Variation with Elbow Support
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Above all, your practice during menstruation should be guided by how you feel. Some days you may feel energized, while others call for complete rest.
+                Bend your slightly separated legs at the knees and fold forward until your belly and chest rest against the front of your thighs. Rest your elbows on your legs and place your forehead on your palms or fists. The back and neck should be relaxed but not rounded—try to maintain them in a straight line. Again, engage abdominal breathing, observing the sensations in the lower abdomen, consciously attempting to release spasms, and feeling how the lower belly fills with pleasant, soft, even warmth.
               </p>
-              <h2 className="font-serif text-2xl font-light text-foreground mt-12 mb-4">
-                Causes of Painful Periods
-              </h2>
-              <p className="leading-relaxed text-muted-foreground">
-                [Your content here] Above all, your practice during menstruation should be guided by how you feel. Some days you may feel energized, while others call for complete rest.
-              </p>
+              {/* Relaxing Positions Image */}
+              <div className="my-8">
+                <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
+                  <Image
+                    src="/images/period-relaxing-positions.jpg"
+                    alt="Relaxing yoga positions for menstrual comfort"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
