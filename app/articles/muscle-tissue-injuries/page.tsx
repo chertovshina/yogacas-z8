@@ -57,6 +57,20 @@ export default function MuscleInjuriesArticle() {
                 priority
               />
             </div>
+            <div className="mt-6 p-4 bg-secondary rounded-lg">
+              <p className="text-sm font-medium text-foreground mb-3 flex items-center gap-2">
+                <span className="inline-block w-2 h-2 rounded-full bg-primary" />
+                Listen to this article
+              </p>
+              <audio
+                controls
+                className="w-full"
+                preload="metadata"
+              >
+                <source src="https://stream.redcircle.com/episodes/84854832-63b0-4b69-95ab-0dc840986660/stream.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           </div>
         </div>
       </section>
@@ -79,7 +93,7 @@ export default function MuscleInjuriesArticle() {
               <div className="grid grid-cols-3 gap-4 my-8">
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1c92eef9da85c3776fc4eb931be3bcb3-wt9bgQCoOibz1xttiOZ3bnbm9bCVQF.png"
+                    src="/images/1c92eef9da85c3776fc4eb931be3bcb3.png"
                     alt="Muscle cell structure under light microscopy"
                     fill
                     className="object-cover"
@@ -87,7 +101,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7e4e41afce1e52d2c676efaf27d0f409-FKdIjxOaqC2ESJW1y8zuJtuozfhfJM.png"
+                    src="/images/7e4e41afce1e52d2c676efaf27d0f409.png"
                     alt="Muscle fiber electron micrograph"
                     fill
                     className="object-cover"
@@ -95,7 +109,7 @@ export default function MuscleInjuriesArticle() {
                 </div>
                 <div className="relative aspect-square rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0007bf899240b1e384bd6e869e789bf0-bl6rjnoYXufC4nhrWrse1iVsZw9LoW.png"
+                    src="/images/0007bf899240b1e384bd6e869e789bf0.png"
                     alt="Actin and myosin filament structure"
                     fill
                     className="object-cover"
@@ -114,7 +128,7 @@ export default function MuscleInjuriesArticle() {
               <div className="my-12">
                 <div className="relative aspect-[16/9] rounded-lg overflow-hidden bg-muted">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Muscles-jrPQcrRJXspZUemyoQfgtXdTKR0CqG.jpg"
+                    src="/images/muscles.jpg"
                     alt="Muscle fiber injury classification diagram"
                     fill
                     className="object-cover"
