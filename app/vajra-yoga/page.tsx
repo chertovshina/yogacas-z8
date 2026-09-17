@@ -1,191 +1,102 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowRight, Sparkles, Heart, Wind, Sun } from "lucide-react"
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
+import type { Metadata } from "next"
+import { ArrowDown } from "@phosphor-icons/react/dist/ssr"
+import { Kicker } from "@/components/site/ui"
+import { asset, after, paragraphAfter } from "@/lib/content"
 
-const principles = [
-  {
-    icon: Sparkles,
-    title: "Golden Rule",
-    description: "Shoulders parallel to hips. This fundamental alignment principle protects the spine and ensures safe, effective practice in every posture.",
-  },
-  {
-    icon: Heart,
-    title: "Stretch, Strengthen, Relax",
-    description: "The three essential phases of each practice. We stretch to create space, strengthen to build stability, and relax to integrate and restore.",
-  },
-  {
-    icon: Wind,
-    title: "Breath & Movement",
-    description: "Synchronize breath with movement; use Kumbhaka (breath hold) techniques. The breath guides each transition and deepens the practice.",
-  },
-  {
-    icon: Sun,
-    title: "Mahamudra",
-    description: "Being present here and now. Through mindful awareness, we cultivate the primordial state of non-dual presence in every moment.",
-  },
-]
+export const metadata: Metadata = {
+  title: "The Practice | Vajra Yoga with Anandi",
+  description: paragraphAfter("vajra-yoga", "Vajra Yoga is a holistic"),
+}
 
-const practices = [
-  {
-    title: "Asana Practice",
-    description: "Physical postures designed to strengthen, purify, and prepare the body for deeper meditation. Our sequences flow with grace and intention.",
-  },
-  {
-    title: "Pranayama",
-    description: "Sacred breathing techniques that regulate vital energy, calm the nervous system, and expand consciousness.",
-  },
-  {
-    title: "Meditation",
-    description: "Seated practices ranging from gentle awareness cultivation to advanced visualization and mantra techniques.",
-  },
-  {
-    title: "Philosophy Study",
-    description: "Exploration of ancient texts and teachings that illuminate the path and deepen understanding of yogic wisdom.",
-  },
-]
+const core = ["Golden Rule", "Stretch, Strengthen, Relax", "Breath & Movement", "Mahamudra"]
+const safe = ["No Twists", "No Deep Side Bends", "No Deep Backbends", "No Headstands"]
 
-export default function VajraYogaPage() {
+export default function PracticePage() {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-
-      {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center pt-20">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/vajra-hero.jpg"
+    <>
+      <section className="practice-hero">
+        <div>
+          <Kicker>The Practice</Kicker>
+          <h1 className="display">
+            Vajra
+            <br />
+            Yoga.
+          </h1>
+          <p className="lead">{paragraphAfter("vajra-yoga", "Vajra Yoga is a holistic")}</p>
+          <a className="text-link" href="#principles">
+            Core Principles
+            <ArrowDown size={22} weight="light" />
+          </a>
+        </div>
+        <figure>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={asset("vajra-hero") || "/placeholder.svg"}
             alt="Yoga silhouette at sunrise"
-            fill
-            className="object-cover"
-            priority
+            width={1000}
+            height={1000}
           />
-          <div className="absolute inset-0 bg-background/50" />
-        </div>
-        
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-2xl">
-            <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-              The Practice
-            </p>
-            <h1 className="font-serif text-5xl md:text-7xl font-light text-foreground leading-tight mb-6 text-balance">
-              Vajra Yoga 
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
-              Vajra Yoga International Federation, founded by Anatoliy Pakhomov, is the only certified organization teaching therapeutic spinal care rooted in ancient Yoga principles. 
-            </p>
-          </div>
+          <figcaption>THE BODY. THE BREATH. THE PRESENT MOMENT.</figcaption>
+        </figure>
+      </section>
+
+      <section className="practice-intro section-pad">
+        <Kicker>Vajra Yoga</Kicker>
+        <div>
+          <p className="serif-lead">{paragraphAfter("vajra-yoga", "Vajra Yoga International Federation")}</p>
+          <p>{paragraphAfter("vajra-yoga", "The term")}</p>
         </div>
       </section>
 
-      {/* Introduction */}
-      <section className="py-24">
-        <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-serif text-3xl md:text-4xl font-light text-foreground leading-relaxed mb-8 text-balance">
-              Vajra Yoga is a holistic way of performing asanas (postures) aimed to preserve and improve spinal health.
-            </h2>
-            <p className="text-muted-foreground leading-relaxed text-lg">
-              The term &quot;Vajra&quot; (Tibetan: &quot;Dorje&quot;) has several interpretations, including: diamond, lightning bolt, enlightenment, instant enlightenment, primordial state, the immovable state attained through Mahamudra practice. In Vajra Yoga, we understand Vajra to mean the primordial state, also called non-duality.
-            </p>
-          </div>
+      <section className="principles section-pad" id="principles">
+        <div className="section-heading-row">
+          <Kicker>Foundation</Kicker>
+          <h2 className="display">
+            Core
+            <br />
+            principles.
+          </h2>
+        </div>
+        <div className="principle-grid">
+          {core.map((name, i) => (
+            <article key={name}>
+              <span className="index-label">0{i + 1}</span>
+              <h3>{name}</h3>
+              <p>{after("vajra-yoga", name)}</p>
+            </article>
+          ))}
         </div>
       </section>
 
-      {/* Core Principles */}
-      <section className="py-24 bg-secondary">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-              Foundation
-            </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground leading-tight text-balance">
-              Core Principles
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {principles.map((principle, index) => (
-              <div
-                key={index}
-                className="p-8 bg-card border border-border rounded-lg"
-              >
-                <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center mb-6">
-                  <principle.icon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="font-serif text-2xl font-medium text-card-foreground mb-3">
-                  {principle.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {principle.description}
-                </p>
+      <section className="safe-practice section-pad">
+        <div className="safe-intro">
+          <Kicker>Safe Practice</Kicker>
+          <h2 className="display">
+            Spine-friendly
+            <br />
+            practice.
+          </h2>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={asset("vajra-practice") || "/placeholder.svg"}
+            alt="Meditation hands in mudra"
+            width={1000}
+            height={1000}
+            loading="lazy"
+          />
+        </div>
+        <div className="safe-list">
+          {safe.map((name, i) => (
+            <article key={name}>
+              <span className="index-label">0{i + 1}</span>
+              <div>
+                <h3>{name}</h3>
+                <p>{after("vajra-yoga", name)}</p>
               </div>
-            ))}
-          </div>
+            </article>
+          ))}
         </div>
       </section>
-
-      {/* What We Practice */}
-      <section className="py-24">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4">
-                Safe Practice
-              </p>
-              <h2 className="font-serif text-4xl md:text-5xl font-light text-foreground leading-tight mb-8 text-balance">
-                Spine-friendly Practice
-              </h2>
-              <div className="space-y-6">
-                <div className="border-l-2 border-primary pl-6">
-                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                    No Twists
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Twisting compresses the intervertebral foramina, which can impair nerve function and lead to internal organ dysfunction.
-                  </p>
-                </div>
-                <div className="border-l-2 border-primary pl-6">
-                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                    No Deep Side Bends
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Deep side bends may trigger vertebral shifts that compress nerve roots and cause health issues. Pelvic tilting can also lead to persistent sacroiliac joint displacement.
-                  </p>
-                </div>
-                <div className="border-l-2 border-primary pl-6">
-                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                    No Deep Backbends
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Deep backbends may cause vertebral misalignment, which can disrupt nerve supply to internal organs and also lead to herniated discs.
-                  </p>
-                </div>
-                <div className="border-l-2 border-primary pl-6">
-                  <h3 className="font-serif text-xl font-medium text-foreground mb-2">
-                    No Headstands
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    In headstands, the thoracic spine experiences increased load from the weight of the legs, pelvis, and large lumbar vertebrae.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="relative aspect-[4/5] rounded-lg overflow-hidden">
-              <Image
-                src="/images/vajra-practice.jpg"
-                alt="Meditation hands in mudra"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-    </div>
+    </>
   )
 }
