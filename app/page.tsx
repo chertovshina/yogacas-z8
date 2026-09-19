@@ -63,11 +63,12 @@ export default function HomePage() {
         <div className="about-picture">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={asset("DSC_0857") || "/placeholder.svg"}
+            src="/assets/guiding.jpg"
             alt="Anandi seated in a yoga meditation posture"
             width={1200}
             height={800}
             loading="lazy"
+            style={{ objectPosition: "47% 40%" }}
           />
           <span className="picture-caption">ANANDI / VAJRA YOGA TEACHER</span>
         </div>
