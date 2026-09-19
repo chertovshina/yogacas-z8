@@ -109,8 +109,8 @@ export default function HomePage() {
         <div className="quote-image">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={asset("vajra-practice") || "/placeholder.svg"}
-            alt="Meditation hands in mudra position"
+            src="/assets/mudra.jpg"
+            alt="Hands resting on the knee in gyan mudra during meditation"
             width={1000}
             height={1000}
             loading="lazy"
