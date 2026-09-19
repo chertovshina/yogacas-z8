@@ -1,40 +1,34 @@
-import React from "react"
-import type { Metadata, Viewport } from 'next'
-import { Inter, Cormorant_Garamond } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
-
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: '--font-inter',
-});
-
-const cormorant = Cormorant_Garamond({ 
-  subsets: ["latin"],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-cormorant',
-});
+import type { Metadata } from "next"
+import type { ReactNode } from "react"
+import { Analytics } from "@vercel/analytics/next"
+import { BookingProvider } from "@/components/site/booking"
+import { Header } from "@/components/site/header"
+import { Footer } from "@/components/site/footer"
+import "./globals.css"
 
 export const metadata: Metadata = {
-  title: 'Vajra Yoga | Find Your Inner Light',
-  description: 'Discover the transformative power of Vajra Yoga with personalized guidance. Join classes, workshops, and retreats designed to nurture your body, mind, and spirit.',
-  keywords: ['yoga', 'vajra yoga', 'meditation', 'mindfulness', 'wellness', 'yoga teacher'],
-    generator: 'v0.app'
+  title: "Vajra Yoga | Find Your Inner Light",
+  description:
+    "Vajra Yoga with Anandi — a spine-friendly practice (Correct Approach to the Spine) that nurtures the body, calms the mind, and awakens the spirit.",
+  generator: "v0.app",
 }
 
-export const viewport: Viewport = {
-  themeColor: '#6b4c8c',
+export const viewport = {
+  themeColor: "#0f0e13",
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased`}>
-        {children}
+      <body>
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
+        <BookingProvider>
+          <Header />
+          <main id="main">{children}</main>
+          <Footer />
+        </BookingProvider>
         <Analytics />
       </body>
     </html>
