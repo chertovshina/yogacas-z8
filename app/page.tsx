@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ArrowUpRight, InstagramLogo, FacebookLogo } from "@phosphor-icons/react/dist/ssr"
 import { Kicker, TextLink } from "@/components/site/ui"
 import { OfferBookButton } from "@/components/site/booking"
+import { StatementBand } from "@/components/site/statement-band"
 import { asset, after, homeIntro, homeBio, socials } from "@/lib/content"
 
 export const metadata: Metadata = {
@@ -50,14 +51,7 @@ export default function HomePage() {
         </Link>
       </section>
 
-      <div className="statement-band">
-        <p>Stretch. Strengthen. Relax.</p>
-        <span>
-          THE THREE ESSENTIAL
-          <br />
-          PHASES OF EACH PRACTICE.
-        </span>
-      </div>
+      <StatementBand />
 
       <section className="home-about section-pad" aria-labelledby="home-about-title">
         <div className="about-picture">
