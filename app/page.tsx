@@ -28,10 +28,10 @@ export default function HomePage() {
         <figure className="hero-picture">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={asset("DSC_0866") || "/placeholder.svg"}
-            alt="Anandi demonstrating a balanced yoga posture"
-            width={1800}
-            height={1200}
+            src="/assets/hero.jpg"
+            alt="Anandi in a squatting balance posture on a maroon mat in a sunlit studio"
+            width={1536}
+            height={1024}
           />
           <figcaption>
             <span>BODY. MIND. SPIRIT.</span>
